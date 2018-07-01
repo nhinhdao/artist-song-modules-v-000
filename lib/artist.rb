@@ -4,7 +4,7 @@ class Artist
     extend Memorable
 
     attr_accessor :name
-    attr_reader :songs M
+    attr_reader :songs
 
     @@artists = []
 
