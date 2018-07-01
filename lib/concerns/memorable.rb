@@ -12,7 +12,7 @@ module Memorable
     module InstanceMethods
 
         def initialize(name)
-            self.name = name
+            self.class.name << name
         end
     end
 end
